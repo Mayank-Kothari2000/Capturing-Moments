@@ -1,0 +1,98 @@
+body,html{
+          background-image:url('images/Home/home_bg 2.jpg');
+          background-repeat:no-repeat;
+          background-color:black;
+          background-size:100% 100%;	 
+}
+.hero-image{
+			 background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
+		     background-repeat:no-repeat;
+		     background-size:100% 100%;
+}
+h1{
+	       color:yellow;
+	       font-size:90px;
+	       text-align:left;
+	       text-shadow:3px 3px black;
+	       left:30%;
+	       position:absolute;
+}
+h2{
+	       color:white;
+	       font-size:50px;
+	       text-align:left;
+	       text-shadow:2px 2px black;
+	       left:15%;
+	       top:18%;
+	       position:absolute;
+}
+p{
+		   color:white;
+	       background-color:rgba(16,20,20,0.5);
+		   border:5px solid rgba(128,242,13);
+	       font-size:40px;
+	       text-align:center;
+	       text-shadow:1px 1.5px blue;
+	       left:14%;
+	       top:70%;
+	       right:10%;
+	       position:absolute;
+}
+.sidenav{
+          background-image:url('images/Home/op1.jpg');
+          background-repeat:no-repeat;
+          height:75%;
+          display:none;
+          width:195px;
+          border:5px solid white;
+          position:absolute;
+          background-color:white;
+          top:50;
+          left:20;
+	      z-index:1;
+	      overflow-x:hidden;
+	      padding-top:100px;
+}
+span{
+     color:white;
+	 font-size:20px;
+	 position:absolute;       
+	 border:1px solid black;
+	 background-image:url('images/Home/sun.jpg');
+}
+.sidenav a{
+			padding: 30px 18px 8px 32px;
+			font-size:23px;
+			text-shadow:1px 1.5px blue;
+			color:white;
+			display:block;
+			font-family:Arial black;
+			text-decoration:none;
+}
+.sidenav a:hover{
+                 color:yellow;           
+}
+.sidenav .closebtn{
+					position:absolute;
+					color:white;
+					top:0px;
+					right:0px;
+					font-size:40px;
+					margin-left:50px;
+}
+img{
+		height:35%;
+		width:90%;
+		padding-left:5%;
+}
+.footer {
+  text-align: center;
+  font-size:25px;
+  width:100%;
+  background-color:green;
+  text-shadow:2px 2px black;
+  color: yellow;
+  bottom:-97%;
+  position:relative;
+  display: block;
+}

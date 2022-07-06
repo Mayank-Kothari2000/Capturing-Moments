@@ -1,0 +1,195 @@
+body{
+		  background-image:url('images/Contact/wall_2.jpg');
+          background-repeat:no-repeat;
+          background-size:cover;
+          background-position:bottom-left;
+}
+h1{
+	color:white;
+	font-size:80px;
+	text-align:left;
+	padding-left:18%;
+	padding-top:8%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+form{
+	margin:50px auto;
+	width:1100px;
+	border-radius:10px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div{
+	margin-top:50px;
+}
+label{
+	dispaly:inline-block;
+	width:120px;
+	color:white;
+	font-size:30px;
+	padding-left:1%;
+}
+input, textarea{
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:rgba(189,189,189,0.5);
+	width:600px;
+	color:white;
+	vertical-align:top;
+}
+div.popup{
+	margin-top:6%;
+	margin-left:45%;
+}
+div.button{
+	margin-top:15%;
+	margin-left:35%;
+}
+.popup {
+  text-decoration:none;
+  border:none;	
+  background-color:black;
+  padding:10px;
+  font-weight:100;
+  transition: all 0.5s ease 0s;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 115%;
+  left: 50%;
+  margin-left: -80px;
+}
+span1{
+	 position:absolute;  
+	 font-size:20px; 
+     color:white;
+	 border:1px solid black;           
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.button1{
+	text-decoration:none;
+	background-size:100% 100%;
+	padding:10px;
+	font-weight:100;
+	transition: all 0.5s ease 0s;
+	cursor: pointer;
+	dispaly:inline-block;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+}
+mark{
+	background-color: yellow;
+	color:blue;
+	text-shadow:1.5px 1px black;
+	width:100px;
+	border:3px solid white;
+	font-size:22px;
+}
+.sidenav{
+          background-image:url('images/Contact/op1.jpg');
+          background-repeat:no-repeat;
+          height:72%;
+          border:5px solid white;
+          display:none;
+          width:250px;
+          position:absolute;
+          background-color:white;
+          top:5;
+          left:20;
+	      z-index:1;
+	      overflow-x:hidden;
+	      padding-top:100px;
+}
+span{
+	 position:absolute;  
+	 font-size:20px; 
+     color:white;
+	 border:1px solid black;
+	 background-image:url('images/Contact/sun.jpg');           
+}
+.sidenav a{
+			padding: 30px 18px 8px 32px;
+			font-size:27px;
+			text-shadow:2px 1.5px blue;
+			font-weight:bold;
+			color:white;
+			display:block;
+			text-decoration:none;
+}
+.sidenav a:hover{
+                 color:yellow;           
+}
+.sidenav .closebtn{
+					position:absolute;
+					color:white;
+					top:0;
+					right:25px;
+					font-size:40px;
+					margin-left:50px;
+}
+.sidenav img{
+		height:30%;
+		width:90%;
+		padding-top:5%;
+		padding-left:5%;
+}
+.footer {
+  text-align: center;
+  padding:3px;
+  width:100%;
+  background-color:green;
+  color: yellow;
+  text-shadow:1px 1px black;
+  position: fixed;
+  left:0;
+  bottom:5;
+  display: block;
+}

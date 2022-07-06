@@ -1,0 +1,133 @@
+*{
+	box-sizing:border-box;    
+}
+/* Standard syntax */
+@keyframes moveit {
+    from {left:42%;}
+    to {left: 0%;}
+}
+@keyframes moveit1 {
+    from {left:-30%;}
+    to {left: 0%;}
+}
+@keyframes moveit2 {
+    from {left:0%;}
+    to {left:40%;}
+}
+body{
+	background-image:url('images/Portfolio/cv3.jpg');
+	padding:10px;
+	background-size:100% 50%;
+}
+h2{
+	font-size:50px;
+	text-shadow:3px 3px black;
+	background-color:rgba(16,20,20,0.5);
+	color:white;
+	padding-left:40%;
+	width: 1500px;
+    height: 70px;
+    position: relative;    
+    -webkit-animation-name: moveit;
+	-webkit-animation-duration: 7s;
+}
+h3{
+	font-size:40px;
+	background-color:rgba(16,20,20,0.5);
+	text-shadow:1.5px 1.5px black;
+	color:#d5eb34;
+	padding-left:30%;
+    position: relative;    
+    -webkit-animation-name: moveit1;
+	-webkit-animation-duration: 5s;
+}
+h1{
+	font-size:50px;
+	text-shadow:4px 4px black;
+	color:yellow;
+	font-family:Arial Black;
+}
+.main{
+	max-width:1500px;
+	margin:auto;	
+}	
+.row{
+	margin:auto;
+}
+.column{
+	float:left;
+	width:50%;
+}
+.content{
+	background-image:url('images/Portfolio/cube.jpg');
+	background-size:100% 100%;
+	background-repeat:no repeat;
+	padding:10px;
+}
+@media screen and(max-width:800px){
+	.column{
+		width:50%;
+	}
+}
+@media screen and(max-width:400px){
+	.column{
+		width:100%;
+	}
+}
+.sidenav{
+          background-image:url('images/Portfolio/op1.jpg');
+          background-repeat:no-repeat;
+          border:5px solid black;
+          display:none;
+          width:190px;
+          position:fixed;
+		  z-index:1;
+	      top:80;
+	      left:5;
+	      overflow-x:hidden;
+	      padding-top:100px;
+}
+span{
+     color:white;
+	 position:absolute;  
+	 font-size:20px;
+	 border:1px solid black;
+	 background-image:url('images/Portfolio/sun.jpg');           
+}
+.sidenav a{
+			padding: 30px 18px 8px 32px;
+			font-size:23px;
+			font-family:Arial Black;
+			text-shadow:2px 1.5px black;
+			color:white;
+			display:block;
+			text-decoration:none;
+}
+.sidenav a:hover{
+                 color:#d5eb34;           
+}
+.sidenav .closebtn{
+					position:absolute;
+					color:white;
+					top:0;
+					right:25px;
+					font-size:40px;
+					margin-left:50px;
+}
+.sidenav img{
+		height:12%;
+		width:90%;
+		padding-top:15%;
+		padding-left:5%;
+}
+.footer {
+  text-align: center;
+  font-size:35px;
+  width:100%;
+  background-color:green;
+  text-shadow:2px 2px black;
+  color: yellow;
+  top:0%;
+  position:relative;
+  display: block;
+}
